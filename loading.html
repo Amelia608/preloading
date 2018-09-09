@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loading</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="content">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header>
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536477995653&di=9da1524f0d058439fece4225bb5d46be&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2Fattachments2%2F201310%2F30%2F114329boo85697uuhhhu9u.jpg"
+            alt="">
+    </header>
+    <section>
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536477995653&di=9da1524f0d058439fece4225bb5d46be&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2Fattachments2%2F201310%2F30%2F114329boo85697uuhhhu9u.jpg"
+            alt="">
+    </section>
+    <footer>
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536477995653&di=9da1524f0d058439fece4225bb5d46be&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fforum%2Fattachments2%2F201310%2F30%2F114329boo85697uuhhhu9u.jpg"
+            alt="">
+    </footer>
+</body>
+<script>
+    document.onreadystatechange=function(){
+        if(document.readyState=="compelte")
+        console.log(document.readyState)
+        $(".loading").fadeOut();
+    }
+</script>
+</html>
